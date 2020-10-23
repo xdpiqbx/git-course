@@ -49,3 +49,27 @@ git status
             modified:   git.txt
             modified:   index.html
 ----------------------------------
+Поетому
+git add .
+git status
+    On branch master
+    No commits yet
+    Changes to be committed:
+    (use "git rm --cached <file>..." to unstage)
+            new file:   git.txt
+            new file:   index.html
+            new file:   script.js
+----------------------------------
+git commit -m "first commit"
+[master (root-commit) 251f7f8] first commit
+ 3 files changed, 69 insertions(+)
+ create mode 100644 git.txt
+ create mode 100644 index.html
+ create mode 100644 script.js
+    251f7f8 - это уникальный код коммита
+----------------------------------
+.gitignore - файл в котором соержится список файлов и папок
+             которые будут проигнорированы гитом
+Сам .gitignore доже быть и будет добавлен в репозиторий
+----------------------------------
+git status не даст никаой инфорации о файлах из .gitignore
