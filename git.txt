@@ -73,3 +73,8 @@ git commit -m "first commit"
 Сам .gitignore доже быть и будет добавлен в репозиторий
 ----------------------------------
 git status не даст никаой инфорации о файлах из .gitignore
+----------------------------------
+git commit -m "added .gitignore"
+[master 23860cb] added .gitignore
+ 2 files changed, 27 insertions(+), 1 deletion(-)
+ create mode 100644 .gitignore
